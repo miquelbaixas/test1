@@ -1,0 +1,39 @@
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#summary-container {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+}
+
+#summary-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#summary-button {
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#summary-button:hover {
+    background: #0056b3;
+}
+
+#summary-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
